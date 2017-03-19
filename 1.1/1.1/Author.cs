@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _1._1
 {
-    class Author : Library, ICountingBooks
+    class Author : Department, IComparable, ICountingBooks
     {
         private int _age;
 
@@ -17,23 +17,47 @@ namespace _1._1
         }
 
         public Author()
-            :this("No Name", 0, 0) { }
+         :this("No Name", 0) { }
 
         public Author(string name)
-            : this(name, 0, 0) { }
-
-        public Author(string name, int books,int age) : base()
+          : this(name, 0) { }
+        
+        public Author(string name, int age) : base(name)
         {
-            this.age = age;
+            Age = age;
         }
 
         public override string ToString()
         {
-            return "Author's name: " + name + "Has written " + books + "books";
+            return "Author's name: " + Name;
         }
-        public void CountBooks()
+        public new void CountBooks()
         {
-            throw new NotImplementedException();
+            _books = booooks.Count();
+        }
+
+        public override void ShowNumOfBooks()
+        {
+            Console.WriteLine("Author has wtritten {0}", _books);
+        }
+        public int CompareTo(object obj)
+        {
+            if (obj != null)
+            {
+                Author otherAuthor = obj as Author;
+                if (otherAuthor != null)
+                {
+                    return _books.CompareTo(otherAuthor._books);
+                }
+                else
+                    throw new ArgumentException("Object didn't write any books");
+            }
+            else return 0;
+        }
+
+        public static void ShowComparapble(Author a1, Author a2)
+        {
+            Console.WriteLine("Author {0} has wtitten more books than Author {1} : {2}", a1.Name, a2.Name, a1.CompareTo(a2));
         }
     }
 }

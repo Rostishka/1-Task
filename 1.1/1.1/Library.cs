@@ -9,43 +9,58 @@ namespace _1._1
 {
      class Library : ICountingBooks
     {
-        public List<Depatrment> departments = new List<Depatrment>();
+        public List<Department> departments = new List<Department>();
         public List<Book> booooks = new List<Book>();
+        public int _books;
         private string _name;
-        private int _books;
+        public int _libBooks = 0;
+        public int _numOfDepartments;
 
         public string Name
         {
             get { return _name; }
+            set { _name = value; }
         }
 
         public Library()
             : this("") { }
 
-        public Library(string Name)
-            : this(Name) { }
-
-        public void AddBook(Book bookName)
+        public Library(string name)
         {
-            booooks.Add(bookName);
+            Name = name;
         }
-        public void AddDepartment(Depatrment departmentName)
+
+        public void AddDepartment(Department departmentName)
         {
             departments.Add(departmentName);
         }
 
-        public void GetBooks()
-        {
-            booooks.Count();
-        }
         public override string ToString()
         {
-            return "Library's name: " + _name + "contains " + _books + "books";
+            return Name + " Library has " + _numOfDepartments + " departments";
+        }
+
+        public void CountDepartments()
+        {
+            _numOfDepartments = departments.Count();
+        }
+
+        public void ShowNumOfDeps()
+        {
+            Console.WriteLine("LIBRARY contains " + _numOfDepartments + " Departments");
+        }
+
+        public virtual void ShowNumOfBooks()
+        {
+            Console.WriteLine("Library contains " + _books + " books");
         }
 
         public void CountBooks()
         {
-            Console.WriteLine("Number of books in the whole library is: {0}", books);
+            foreach (Department b in departments)
+            {
+                _books += b._books;
+            }
         }
     }
 }
