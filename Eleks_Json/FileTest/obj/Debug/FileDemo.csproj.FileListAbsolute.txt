@@ -1,0 +1,21 @@
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\bin\Debug\FileDemo.exe.config
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\bin\Debug\FileDemo.exe
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\bin\Debug\FileDemo.pdb
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\obj\Debug\FileDemo.csprojResolveAssemblyReference.cache
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\obj\Debug\FileDemo.exe
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\obj\Debug\FileDemo.pdb
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\bin\Debug\Demo.txt
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\bin\Debug\Demo.txt
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\bin\Debug\FileDemo.exe.config
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\bin\Debug\FileDemo.exe
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\bin\Debug\FileDemo.pdb
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\obj\Debug\FileDemo.csprojResolveAssemblyReference.cache
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\obj\Debug\FileDemo.exe
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\FileTest\obj\Debug\FileDemo.pdb
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\FileTest\bin\Debug\Demo.txt
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\FileTest\bin\Debug\FileDemo.exe.config
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\FileTest\bin\Debug\FileDemo.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\FileTest\bin\Debug\FileDemo.pdb
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\FileTest\obj\Debug\FileDemo.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\FileTest\obj\Debug\FileDemo.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\FileTest\obj\Debug\FileDemo.pdb

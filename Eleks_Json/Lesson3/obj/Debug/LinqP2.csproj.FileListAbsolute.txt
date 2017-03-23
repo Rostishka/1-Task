@@ -1,0 +1,28 @@
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\bin\Debug\LinqP2.exe.config
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\bin\Debug\LinqP2.exe
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\bin\Debug\LinqP2.pdb
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\obj\Debug\LinqP2.csprojResolveAssemblyReference.cache
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\obj\Debug\LinqP2.exe
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\obj\Debug\LinqP2.pdb
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\bin\Debug\EnumerableCollections\TestEnumerator.txt
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\bin\Debug\EnumerableCollections\TestEnumerator.txt
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\bin\Debug\LinqP2.exe.config
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\bin\Debug\LinqP2.exe
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\bin\Debug\LinqP2.pdb
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\obj\Debug\LinqP2.csprojResolveAssemblyReference.cache
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\obj\Debug\LinqP2.exe
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson4_1\obj\Debug\LinqP2.pdb
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson3\bin\Debug\EnumerableCollections\TestEnumerator.txt
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson3\bin\Debug\LinqP2.exe.config
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson3\bin\Debug\LinqP2.exe
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson3\bin\Debug\LinqP2.pdb
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson3\obj\Debug\LinqP2.csprojResolveAssemblyReference.cache
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson3\obj\Debug\LinqP2.exe
+C:\Users\vasyl.viyatyk\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\Lesson3\obj\Debug\LinqP2.pdb
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\Lesson3\bin\Debug\EnumerableCollections\TestEnumerator.txt
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\Lesson3\bin\Debug\LinqP2.exe.config
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\Lesson3\bin\Debug\LinqP2.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\Lesson3\bin\Debug\LinqP2.pdb
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\Lesson3\obj\Debug\LinqP2.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\Lesson3\obj\Debug\LinqP2.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_Json\Lesson3\obj\Debug\LinqP2.pdb

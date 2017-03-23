@@ -1,6 +1,0 @@
-d:\Documents\Visual Studio 2017\Projects\ELEKS_hometasks\1.1\1.1\obj\Debug\1.1.csprojResolveAssemblyReference.cache
-d:\Documents\Visual Studio 2017\Projects\ELEKS_hometasks\1.1\1.1\bin\Debug\1.1.exe.config
-d:\Documents\Visual Studio 2017\Projects\ELEKS_hometasks\1.1\1.1\bin\Debug\1.1.exe
-d:\Documents\Visual Studio 2017\Projects\ELEKS_hometasks\1.1\1.1\bin\Debug\1.1.pdb
-d:\Documents\Visual Studio 2017\Projects\ELEKS_hometasks\1.1\1.1\obj\Debug\1.1.exe
-d:\Documents\Visual Studio 2017\Projects\ELEKS_hometasks\1.1\1.1\obj\Debug\1.1.pdb
