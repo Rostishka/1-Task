@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Library xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Address="Zhivova 34" Id="1">
+  <Name>Ternopilska Library</Name>
+  <Autors />
+  <Departments>
+    <Department Id="11">
+      <Name>IT</Name>
+      <Books>
+        <Book Id="0" Quontaty="2">
+          <Title>Ward and Peace</Title>
+          <Price>122</Price>
+          <Autors />
+        </Book>
+        <Book Id="1" Quontaty="3">
+          <Title>Язык программирования C# 5.0 и платформа .NET 4.5</Title>
+          <Price>1311</Price>
+          <Autors />
+        </Book>
+        <Book Id="2" Quontaty="7">
+          <Title>Язык программирования C# 6.0 и платформа .NET 4.6</Title>
+          <Price>1440</Price>
+          <Autors />
+        </Book>
+        <Book Id="3" Quontaty="12">
+          <Title>C# 6.0. Справочник. Полное описание языка</Title>
+          <Price>1040</Price>
+          <Autors />
+        </Book>
+        <Book Id="4" Quontaty="8">
+          <Title>C# 5.0. Справочник. Полное описание языка</Title>
+          <Price>1008</Price>
+          <Autors />
+        </Book>
+      </Books>
+      <Autors>
+        <Author Id="1" Age="49">
+          <Name>Эндрю Троелсен</Name>
+          <Books>
+            <Book Id="0" Quontaty="2">
+              <Title>Ward and Peace</Title>
+              <Price>122</Price>
+              <Autors />
+            </Book>
+            <Book Id="1" Quontaty="3">
+              <Title>Язык программирования C# 5.0 и платформа .NET 4.5</Title>
+              <Price>1311</Price>
+              <Autors />
+            </Book>
+            <Book Id="2" Quontaty="7">
+              <Title>Язык программирования C# 6.0 и платформа .NET 4.6</Title>
+              <Price>1440</Price>
+              <Autors />
+            </Book>
+          </Books>
+        </Author>
+        <Author Id="2" Age="39">
+          <Name>Джозеф Албахари</Name>
+          <Books>
+            <Book Id="3" Quontaty="12">
+              <Title>C# 6.0. Справочник. Полное описание языка</Title>
+              <Price>1040</Price>
+              <Autors />
+            </Book>
+            <Book Id="4" Quontaty="8">
+              <Title>C# 5.0. Справочник. Полное описание языка</Title>
+              <Price>1008</Price>
+              <Autors />
+            </Book>
+          </Books>
+        </Author>
+      </Autors>
+    </Department>
+    <Department Id="12">
+      <Name>FatherLand Literature</Name>
+      <Books>
+        <Book Id="5" Quontaty="11">
+          <Title>Катерина</Title>
+          <Price>233</Price>
+          <Autors />
+        </Book>
+        <Book Id="6" Quontaty="12">
+          <Title>Гайдамаки</Title>
+          <Price>430</Price>
+          <Autors />
+        </Book>
+        <Book Id="7" Quontaty="56">
+          <Title>Утоплена</Title>
+          <Price>201</Price>
+          <Autors />
+        </Book>
+        <Book Id="9" Quontaty="44">
+          <Title>Тарасова ніч</Title>
+          <Price>78</Price>
+          <Autors />
+        </Book>
+        <Book Id="9" Quontaty="7">
+          <Title>Кобзар</Title>
+          <Price>420</Price>
+          <Autors />
+        </Book>
+        <Book Id="10" Quontaty="65">
+          <Title>Істар</Title>
+          <Price>75</Price>
+          <Autors />
+        </Book>
+        <Book Id="11" Quontaty="123">
+          <Title>Смерть Каїна</Title>
+          <Price>24</Price>
+          <Autors />
+        </Book>
+        <Book Id="12" Quontaty="13">
+          <Title>Вічний Револціонер</Title>
+          <Price>1</Price>
+          <Autors />
+        </Book>
+        <Book Id="13" Quontaty="2">
+          <Title>Лис Микита</Title>
+          <Price>50</Price>
+          <Autors />
+        </Book>
+        <Book Id="14" Quontaty="1">
+          <Title>Мойсей</Title>
+          <Price>540</Price>
+          <Autors />
+        </Book>
+        <Book Id="15" Quontaty="0">
+          <Title>Страшний Суд</Title>
+          <Price>200</Price>
+          <Autors />
+        </Book>
+      </Books>
+      <Autors>
+        <Author Id="3" Age="37">
+          <Name>Тарас Шевченко</Name>
+          <Books>
+            <Book Id="5" Quontaty="11">
+              <Title>Катерина</Title>
+              <Price>233</Price>
+              <Autors />
+            </Book>
+            <Book Id="6" Quontaty="12">
+              <Title>Гайдамаки</Title>
+              <Price>430</Price>
+              <Autors />
+            </Book>
+            <Book Id="7" Quontaty="56">
+              <Title>Утоплена</Title>
+              <Price>201</Price>
+              <Autors />
+            </Book>
+            <Book Id="9" Quontaty="44">
+              <Title>Тарасова ніч</Title>
+              <Price>78</Price>
+              <Autors />
+            </Book>
+            <Book Id="9" Quontaty="7">
+              <Title>Кобзар</Title>
+              <Price>420</Price>
+              <Autors />
+            </Book>
+            <Book Id="10" Quontaty="65">
+              <Title>Істар</Title>
+              <Price>75</Price>
+              <Autors />
+            </Book>
+          </Books>
+        </Author>
+        <Author Id="4" Age="110">
+          <Name>Iван Франко</Name>
+          <Books>
+            <Book Id="11" Quontaty="123">
+              <Title>Смерть Каїна</Title>
+              <Price>24</Price>
+              <Autors />
+            </Book>
+            <Book Id="12" Quontaty="13">
+              <Title>Вічний Револціонер</Title>
+              <Price>1</Price>
+              <Autors />
+            </Book>
+            <Book Id="13" Quontaty="2">
+              <Title>Лис Микита</Title>
+              <Price>50</Price>
+              <Autors />
+            </Book>
+            <Book Id="14" Quontaty="1">
+              <Title>Мойсей</Title>
+              <Price>540</Price>
+              <Autors />
+            </Book>
+            <Book Id="15" Quontaty="0">
+              <Title>Страшний Суд</Title>
+              <Price>200</Price>
+              <Autors />
+            </Book>
+          </Books>
+        </Author>
+      </Autors>
+    </Department>
+    <Department Id="13">
+      <Name>Foreign  Literature</Name>
+      <Books>
+        <Book Id="16" Quontaty="22">
+          <Title>Жага до життя</Title>
+          <Price>75</Price>
+          <Autors />
+        </Book>
+        <Book Id="17" Quontaty="54">
+          <Title>Зов предков</Title>
+          <Price>243</Price>
+          <Autors />
+        </Book>
+        <Book Id="18" Quontaty="98">
+          <Title>Біле ікло</Title>
+          <Price>603</Price>
+          <Autors />
+        </Book>
+        <Book Id="20" Quontaty="11">
+          <Title>Байки Езопа</Title>
+          <Price>40</Price>
+          <Autors />
+        </Book>
+        <Book Id="21" Quontaty="3">
+          <Title>Лев та миша</Title>
+          <Price>21</Price>
+          <Autors />
+        </Book>
+      </Books>
+      <Autors>
+        <Author Id="5" Age="1886">
+          <Name>Джек Лоднон</Name>
+          <Books>
+            <Book Id="16" Quontaty="22">
+              <Title>Жага до життя</Title>
+              <Price>75</Price>
+              <Autors />
+            </Book>
+            <Book Id="17" Quontaty="54">
+              <Title>Зов предков</Title>
+              <Price>243</Price>
+              <Autors />
+            </Book>
+            <Book Id="18" Quontaty="98">
+              <Title>Біле ікло</Title>
+              <Price>603</Price>
+              <Autors />
+            </Book>
+            <Book Id="20" Quontaty="11">
+              <Title>Байки Езопа</Title>
+              <Price>40</Price>
+              <Autors />
+            </Book>
+            <Book Id="21" Quontaty="3">
+              <Title>Лев та миша</Title>
+              <Price>21</Price>
+              <Autors />
+            </Book>
+          </Books>
+        </Author>
+      </Autors>
+    </Department>
+  </Departments>
+</Library>
