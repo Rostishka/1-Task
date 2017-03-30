@@ -1,0 +1,5 @@
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\InterpreterExample\InterpreterExample\bin\Debug\InterpreterExample.exe
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\InterpreterExample\InterpreterExample\bin\Debug\InterpreterExample.pdb
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\InterpreterExample\InterpreterExample\obj\Debug\InterpreterExample.csprojResolveAssemblyReference.cache
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\InterpreterExample\InterpreterExample\obj\Debug\InterpreterExample.exe
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\InterpreterExample\InterpreterExample\obj\Debug\InterpreterExample.pdb
