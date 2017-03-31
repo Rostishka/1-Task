@@ -85,6 +85,7 @@ namespace _2Homework
             XmlManager manager = new XmlManager();
             manager.SaveBook(b7);
 
+            
 
             Console.ReadKey();
         }

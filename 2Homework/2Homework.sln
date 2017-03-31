@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26228.9
+VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2Homework", "2Homework\2Homework.csproj", "{E2E55799-A840-4A69-89FA-CC2167B9261A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyFirstUnitTest", "..\..\Visual Studio 2017\Projects\MyFirstUnitTest\MyFirstUnitTest\MyFirstUnitTest.csproj", "{C9C1987F-3ECA-4F1A-9A33-30584E5582E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{E2E55799-A840-4A69-89FA-CC2167B9261A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E2E55799-A840-4A69-89FA-CC2167B9261A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E2E55799-A840-4A69-89FA-CC2167B9261A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9C1987F-3ECA-4F1A-9A33-30584E5582E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9C1987F-3ECA-4F1A-9A33-30584E5582E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9C1987F-3ECA-4F1A-9A33-30584E5582E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9C1987F-3ECA-4F1A-9A33-30584E5582E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
