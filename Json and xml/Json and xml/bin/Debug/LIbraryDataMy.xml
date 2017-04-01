@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Id="1_modified_modified000000000000000000000000000000000000000000000">
+  <Name>Ternopilska Library</Name>
+  <Address>Zhivova 34</Address>
+  <Departments>
+    <Dapartment Id="11">
+      <Name>IT</Name>
+      <Autors>
+        <Author Id="1">
+          <Name>Эндрю Троелсен</Name>
+          <Books>
+            <Book Id="1">
+              <BookTitle>Язык программирования C# 5.0 и платформа .NET 4.5</BookTitle>
+              <Autors />
+              <Quontaty>3</Quontaty>
+              <Price>1311</Price>
+            </Book>
+            <Book Id="2">
+              <BookTitle>Язык программирования C# 6.0 и платформа .NET 4.6</BookTitle>
+              <Autors />
+              <Quontaty>7</Quontaty>
+              <Price>1440</Price>
+            </Book>
+          </Books>
+        </Author>
+        <Author Id="2">
+          <Name>Джозеф Албахари</Name>
+          <Books>
+            <Book Id="6">
+              <BookTitle>Гайдамаки</BookTitle>
+              <Autors />
+              <Quontaty>12</Quontaty>
+              <Price>430</Price>
+            </Book>
+            <Book Id="9">
+              <BookTitle>Тарасова ніч</BookTitle>
+              <Autors />
+              <Quontaty>44</Quontaty>
+              <Price>78</Price>
+            </Book>
+          </Books>
+        </Author>
+      </Autors>
+      <Books />
+    </Dapartment>
+    <Dapartment Id="12">
+      <Name>FatherLand Literature</Name>
+      <Autors>
+        <Author Id="3">
+          <Name>Тарас Шевченко</Name>
+          <Books>
+            <Book Id="0">
+              <BookTitle>Ward and Peace</BookTitle>
+              <Autors />
+              <Quontaty>2</Quontaty>
+              <Price>122</Price>
+            </Book>
+            <Book Id="17">
+              <BookTitle>Зов предков</BookTitle>
+              <Autors />
+              <Quontaty>54</Quontaty>
+              <Price>243</Price>
+            </Book>
+          </Books>
+        </Author>
+        <Author Id="4">
+          <Name>Iван Франко</Name>
+          <Books>
+            <Book Id="21">
+              <BookTitle>Лев та миша</BookTitle>
+              <Autors />
+              <Quontaty>3</Quontaty>
+              <Price>21</Price>
+            </Book>
+            <Book Id="20">
+              <BookTitle>Байки Езопа</BookTitle>
+              <Autors />
+              <Quontaty>11</Quontaty>
+              <Price>40</Price>
+            </Book>
+          </Books>
+        </Author>
+      </Autors>
+      <Books />
+    </Dapartment>
+  </Departments>
+  <Autors />
+</Library>

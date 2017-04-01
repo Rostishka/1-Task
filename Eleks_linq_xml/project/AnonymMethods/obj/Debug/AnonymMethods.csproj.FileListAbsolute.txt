@@ -1,0 +1,5 @@
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\AnonymMethods\bin\Debug\AnonymMethods.exe.config
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\AnonymMethods\bin\Debug\AnonymMethods.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\AnonymMethods\bin\Debug\AnonymMethods.pdb
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\AnonymMethods\obj\Debug\AnonymMethods.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\AnonymMethods\obj\Debug\AnonymMethods.pdb

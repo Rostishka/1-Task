@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BooksLibrary>
+  <library name="Stefanyka" adress="Stefanyka, Lviv">
+    <departments title="IT">
+      <departments title="OOPs Principle and Theory" author="Afzaal Ahmad Zeeshan" />
+    </departments>
+  </library>
+</BooksLibrary>

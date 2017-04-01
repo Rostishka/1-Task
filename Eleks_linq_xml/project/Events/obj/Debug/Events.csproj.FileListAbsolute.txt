@@ -1,0 +1,6 @@
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Events\bin\Debug\Events.exe.config
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Events\bin\Debug\Events.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Events\bin\Debug\Events.pdb
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Events\obj\Debug\Events.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Events\obj\Debug\Events.pdb
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Events\obj\Debug\Events.csprojResolveAssemblyReference.cache

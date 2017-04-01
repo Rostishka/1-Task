@@ -1,0 +1,6 @@
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Json and xml\Json and xml\bin\Debug\Json and xml.exe.config
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Json and xml\Json and xml\bin\Debug\Json and xml.exe
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Json and xml\Json and xml\bin\Debug\Json and xml.pdb
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Json and xml\Json and xml\obj\Debug\Json and xml.csprojResolveAssemblyReference.cache
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Json and xml\Json and xml\obj\Debug\Json and xml.exe
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Json and xml\Json and xml\obj\Debug\Json and xml.pdb

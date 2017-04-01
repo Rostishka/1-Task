@@ -1,0 +1,6 @@
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Delegates\bin\Debug\Delegates.exe.config
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Delegates\bin\Debug\Delegates.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Delegates\bin\Debug\Delegates.pdb
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Delegates\obj\Debug\Delegates.csprojResolveAssemblyReference.cache
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Delegates\obj\Debug\Delegates.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\Delegates\obj\Debug\Delegates.pdb

@@ -1,0 +1,7 @@
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework3\Homework3\bin\Debug\Homework3.exe
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework3\Homework3\bin\Debug\Homework3.pdb
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework3\Homework3\bin\Debug\Newtonsoft.Json.dll
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework3\Homework3\bin\Debug\Newtonsoft.Json.xml
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework3\Homework3\obj\Debug\Homework3.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework3\Homework3\obj\Debug\Homework3.exe
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework3\Homework3\obj\Debug\Homework3.pdb

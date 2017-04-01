@@ -1,0 +1,6 @@
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToObject\bin\Debug\LinqToObject.exe.config
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToObject\bin\Debug\LinqToObject.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToObject\bin\Debug\LinqToObject.pdb
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToObject\obj\Debug\LinqToObject.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToObject\obj\Debug\LinqToObject.pdb
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToObject\obj\Debug\LinqToObject.csprojResolveAssemblyReference.cache

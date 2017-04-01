@@ -1,0 +1,14 @@
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToXml\bin\Debug\LinqToXml.exe.config
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToXml\bin\Debug\Library.xml
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToXml\bin\Debug\LinqToXml.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToXml\bin\Debug\LinqToXml.pdb
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToXml\obj\Debug\LinqToXml.exe
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToXml\obj\Debug\LinqToXml.pdb
+c:\users\maksym.muratov\documents\visual studio 2015\Projects\Lection3\LinqToXml\obj\Debug\LinqToXml.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_linq_xml\project\LinqToXml\bin\Debug\Library.xml
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_linq_xml\project\LinqToXml\bin\Debug\LinqToXml.exe.config
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_linq_xml\project\LinqToXml\bin\Debug\LinqToXml.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_linq_xml\project\LinqToXml\bin\Debug\LinqToXml.pdb
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_linq_xml\project\LinqToXml\obj\Debug\LinqToXml.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_linq_xml\project\LinqToXml\obj\Debug\LinqToXml.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Eleks_linq_xml\project\LinqToXml\obj\Debug\LinqToXml.pdb

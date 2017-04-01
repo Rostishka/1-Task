@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library id="1" name="Центральна бібліотека Тернополя" address="м. Тернопіль, вул.Бандери 23">
+  <Department id="4" name="Econimics">
+    <Book id="20" name="Капітал" author="Карл Маркс" year="1876" pages="546" />
+    <Book id="21" name="Капітал" author="Карл Маркс" year="1876" pages="546" />
+    <Book id="22" name="Капітал" author="Карл Маркс" year="1876" pages="14" />
+  </Department>
+  <Department id="3" name="IT">
+    <Book id="15" name="Философия Java" author="Брюс Еккель" year="2000" pages="780" />
+    <Book id="16" name="Философия Java" author="Брюс Еккель" year="2000" pages="780" />
+    <Book id="17" name="Философия Java" author="Брюс Еккель" year="2000" pages="780" />
+    <Book id="18" name="Ефективне програмування на Java" author="Джошуа Блох" year="2004" pages="546" />
+    <Book id="19" name="Ефективне програмування на Java" author="Джошуа Блох" year="2004" pages="546" />
+  </Department>
+  <Department id="2" name="Українська література">
+    <Book id="5" name="Галицькі образки" author="Франко Іван" year="1885" pages="123" />
+    <Book id="6" name="Галицькі образки" author="Франко Іван" year="1885" pages="123" />
+    <Book id="7" name="Галицькі образки" author="Франко Іван" year="1885" pages="123" />
+    <Book id="8" name="Сім казок" author="Франко Іван" year="1900" pages="201" />
+    <Book id="9" name="Сім казок" author="Франко Іван" year="1900" pages="201" />
+    <Book id="10" name="Кобзар" author="Шевченко Тарас" year="1876" pages="546" />
+    <Book id="11" name="Кобзар" author="Шевченко Тарас" year="1876" pages="546" />
+    <Book id="12" name="Кобзар" author="Шевченко Тарас" year="1876" pages="546" />
+    <Book id="13" name="Кобзар" author="Шевченко Тарас" year="1876" pages="546" />
+    <Book id="14" name="Кобзар" author="Шевченко Тарас" year="1876" pages="546" />
+    <Book id="47" name="Автобіографія" author="Шевченко Тарас" year="1890" pages="420" />
+  </Department>
+</Library>

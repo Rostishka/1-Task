@@ -1,0 +1,6 @@
+﻿Line1
+LIne2		text
+LIne3
+LIne4
+LIne5		Text
+LIne6

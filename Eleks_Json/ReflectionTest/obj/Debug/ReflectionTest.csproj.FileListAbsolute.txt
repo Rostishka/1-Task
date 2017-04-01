@@ -1,0 +1,9 @@
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\ReflectionTest\bin\Debug\ReflectionTest.exe.config
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\ReflectionTest\bin\Debug\EnumerableCollections\TestEnumerator.txt
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\ReflectionTest\bin\Debug\ReflectionTest.exe
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\ReflectionTest\bin\Debug\ReflectionTest.pdb
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\ReflectionTest\bin\Debug\LinqP2.exe
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\ReflectionTest\bin\Debug\LinqP2.pdb
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\ReflectionTest\obj\Debug\ReflectionTest.csprojResolveAssemblyReference.cache
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\ReflectionTest\obj\Debug\ReflectionTest.exe
+C:\Users\Vasya\OneDrive\EleksAcademy\Archive\Lecture4_1\Lesson4_1\ReflectionTest\obj\Debug\ReflectionTest.pdb

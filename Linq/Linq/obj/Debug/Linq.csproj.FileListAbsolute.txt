@@ -1,0 +1,6 @@
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Linq\Linq\bin\Debug\Linq.exe.config
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Linq\Linq\bin\Debug\Linq.exe
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Linq\Linq\bin\Debug\Linq.pdb
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Linq\Linq\obj\Debug\Linq.csprojResolveAssemblyReference.cache
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Linq\Linq\obj\Debug\Linq.exe
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Linq\Linq\obj\Debug\Linq.pdb

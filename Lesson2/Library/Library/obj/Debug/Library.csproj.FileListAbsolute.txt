@@ -1,0 +1,24 @@
+E:\work\ELEKS_CAMP\Projects\C#\Library\Library\bin\Debug\Library.exe.config
+E:\work\ELEKS_CAMP\Projects\C#\Library\Library\bin\Debug\Library.exe
+E:\work\ELEKS_CAMP\Projects\C#\Library\Library\bin\Debug\Library.pdb
+E:\work\ELEKS_CAMP\Projects\C#\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+E:\work\ELEKS_CAMP\Projects\C#\Library\Library\obj\Debug\Library.exe
+E:\work\ELEKS_CAMP\Projects\C#\Library\Library\obj\Debug\Library.pdb
+E:\work\ELEKS_CAMP\Projects\C#\Lesson2\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+E:\work\ELEKS_CAMP\Projects\C#\Lesson2\Library\Library\obj\Debug\Library.exe
+E:\work\ELEKS_CAMP\Projects\C#\Lesson2\Library\Library\obj\Debug\Library.pdb
+E:\work\ELEKS_CAMP\Projects\C#\Lesson2\Library\Library\bin\Debug\Library.exe.config
+E:\work\ELEKS_CAMP\Projects\C#\Lesson2\Library\Library\bin\Debug\Library.exe
+E:\work\ELEKS_CAMP\Projects\C#\Lesson2\Library\Library\bin\Debug\Library.pdb
+E:\work\ELEKS_CAMP\Projects\C#\Lesson3\Library\Library\bin\Debug\Library.exe.config
+E:\work\ELEKS_CAMP\Projects\C#\Lesson3\Library\Library\bin\Debug\Library.exe
+E:\work\ELEKS_CAMP\Projects\C#\Lesson3\Library\Library\bin\Debug\Library.pdb
+E:\work\ELEKS_CAMP\Projects\C#\Lesson3\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+E:\work\ELEKS_CAMP\Projects\C#\Lesson3\Library\Library\obj\Debug\Library.exe
+E:\work\ELEKS_CAMP\Projects\C#\Lesson3\Library\Library\obj\Debug\Library.pdb
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Lesson2\Library\Library\bin\Debug\Library.exe.config
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Lesson2\Library\Library\bin\Debug\Library.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Lesson2\Library\Library\bin\Debug\Library.pdb
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Lesson2\Library\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Lesson2\Library\Library\obj\Debug\Library.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Lesson2\Library\Library\obj\Debug\Library.pdb

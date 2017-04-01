@@ -1,0 +1,22 @@
+E:\щтоу\OneDrive\Documents\1-Task\NEWLIBRARY\NEWLIBRARY\obj\Debug\NEWLIBRARY.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\1-Task\NEWLIBRARY\NEWLIBRARY\bin\Debug\NEWLIBRARY.exe.config
+E:\щтоу\OneDrive\Documents\1-Task\NEWLIBRARY\NEWLIBRARY\bin\Debug\NEWLIBRARY.exe
+E:\щтоу\OneDrive\Documents\1-Task\NEWLIBRARY\NEWLIBRARY\bin\Debug\NEWLIBRARY.pdb
+E:\щтоу\OneDrive\Documents\1-Task\NEWLIBRARY\NEWLIBRARY\obj\Debug\NEWLIBRARY.exe
+E:\щтоу\OneDrive\Documents\1-Task\NEWLIBRARY\NEWLIBRARY\obj\Debug\NEWLIBRARY.pdb
+E:\щтоу\OneDrive\Documents\1-Task\NEWLIBRARY\NEWLIBRARY\bin\Debug\Newtonsoft.Json.dll
+E:\щтоу\OneDrive\Documents\1-Task\NEWLIBRARY\NEWLIBRARY\bin\Debug\Newtonsoft.Json.xml
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework 2,3\obj\Debug\NEWLIBRARY.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework 2,3\obj\Debug\NEWLIBRARY.exe
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework 2,3\obj\Debug\NEWLIBRARY.pdb
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework 2,3\bin\Debug\NEWLIBRARY.exe.config
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework 2,3\bin\Debug\NEWLIBRARY.exe
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework 2,3\bin\Debug\NEWLIBRARY.pdb
+E:\щтоу\OneDrive\Documents\Green\Homework\Rostik\Homework 2,3\bin\Debug\Newtonsoft.Json.xml
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Homework 2\bin\Debug\NEWLIBRARY.exe.config
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Homework 2\bin\Debug\NEWLIBRARY.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Homework 2\bin\Debug\NEWLIBRARY.pdb
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Homework 2\bin\Debug\Newtonsoft.Json.xml
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Homework 2\obj\Debug\NEWLIBRARY.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Homework 2\obj\Debug\NEWLIBRARY.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Homework 2\obj\Debug\NEWLIBRARY.pdb

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<BooksLibrary>
+  <library name="Stefanyka" adress="Stefanyka, Lviv">
+    <departments title="IT">
+      <books title="OOPs Principle and Theory" author="Afzaal Ahmad Zeeshan" />
+      <books title="Introducing Microsoft SQL Server 2014" author="Ross Mistry, Stacia Misner" />
+      <books title="C# 6.0 and the .NET 4.6 Framework" author="ANDREW TROELSEN" />
+      <books title="Microsoft Visual C# Step by Step (8th Edition) (Developer Reference)" author="John Sharp" />
+      <books title="Professional ASP.NET MVC 5" author="Jon Galloway and Brad Wilson" />
+      <books title="Head First C#" author="Jennifer Greene and Andrew Stellman" />
+      <books title="Dependency Injection in .NET" author="Mark Seemann" />
+      <books title="Adaptive Code via C#: Agile coding with design patterns and SOLID principles (Developer Reference)" author="Gary McLean Hall" />
+    </departments>
+  </library>
+</BooksLibrary>
