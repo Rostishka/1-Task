@@ -3,3 +3,9 @@ e:\щтоу\onedrive\documents\visual studio 2017\Projects\2Homework\2Homework\b
 e:\щтоу\onedrive\documents\visual studio 2017\Projects\2Homework\2Homework\obj\Debug\2Homework.csprojResolveAssemblyReference.cache
 e:\щтоу\onedrive\documents\visual studio 2017\Projects\2Homework\2Homework\obj\Debug\2Homework.exe
 e:\щтоу\onedrive\documents\visual studio 2017\Projects\2Homework\2Homework\obj\Debug\2Homework.pdb
+d:\Documents\1-Task\2Homework\2Homework\bin\Debug\2Homework.exe
+d:\Documents\1-Task\2Homework\2Homework\bin\Debug\2Homework.pdb
+d:\Documents\1-Task\2Homework\2Homework\obj\Debug\2Homework.exe
+d:\Documents\1-Task\2Homework\2Homework\obj\Debug\2Homework.pdb
+d:\Documents\1-Task\2Homework\2Homework\bin\Debug\nunit.framework.dll
+d:\Documents\1-Task\2Homework\2Homework\bin\Debug\nunit.framework.xml
