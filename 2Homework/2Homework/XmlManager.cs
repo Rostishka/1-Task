@@ -13,16 +13,20 @@ namespace _2Homework
     {
         protected static string _fileName = "LibraryNEW.xml";
 
-        //public string Name { get; set; }
-
-        private static XAttribute GetAttributeByName(string name, XElement xElement)
+        private static string GetAttributeByName(string attribute, XElement xElement)
         {
-            return xElement.Attributes().FirstOrDefault(x => x.Name == name);
+            return xElement.Attribute(attribute).Value.ToString();
         }
 
-        public void SaveBook(Book book)
+        //public XElement AddDepartment(Department department, Library library)
+        //{
+        //    XDocument xDoc = XDocument.Load(_fileName);
+
+        //}
+
+        public void SaveLibrary(Library lib)
         {
-            XDocument xDoc = new XDocument(book.WriteToXml());
+            XDocument xDoc = new XDocument(lib.WriteToXml());
 
             try
             {
@@ -34,6 +38,64 @@ namespace _2Homework
                 Console.WriteLine(ex.Message);
             }
         }
+
+        public void DeleteEntity(BaseEntity entity)
+        {
+            var doc = XDocument.Load(_fileName);
+            var element = RetrieveXElement(entity, doc.Root);
+            element?.Remove();
+            doc.Save(_fileName);
+        }
+
+        private XElement RetrieveXElement(BaseEntity entity, XElement element)
+        {
+            if (element.Name == entity.GetNodeName())
+            {
+                if (GetAttributeByName("Id", element) == entity.Id.ToString())
+                    return element;
+            }
+            foreach (var elem in element.Elements())
+            {
+
+                if (elem.Name == entity.GetNodeName())
+                {
+                    if (GetAttributeByName("Id", elem) == entity.Id.ToString())
+                        return elem;
+                    else
+                        continue;
+                }
+                else
+                {
+                    return RetrieveXElement(entity, elem);
+                }
+            }
+            return null;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         //public static void Serialize(T obj)
         //{

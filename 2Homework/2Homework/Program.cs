@@ -73,6 +73,7 @@ namespace _2Homework
 
             Console.WriteLine(lib1.CountBooks());
 
+            lib1.AddAuthor(b10.Name);
             //=====================================================================================
             Department.ShowComparapble(depart1, depart2);
             Console.WriteLine(book1.CompareTo(b2.Price));
@@ -82,10 +83,11 @@ namespace _2Homework
             b20.AddAuthorName(a3);
             Console.WriteLine(a3.CountBooks());
 
-            XmlManager manager = new XmlManager();
-            manager.SaveBook(b7);
-
             
+            XmlManager manager = new XmlManager();
+          
+            manager.DeleteEntity(depart1);
+            manager.SaveLibrary(lib1);
 
             Console.ReadKey();
         }

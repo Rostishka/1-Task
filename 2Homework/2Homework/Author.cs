@@ -6,7 +6,7 @@ using System.Xml.Serialization;
 
 namespace _2Homework
 {
-    public class Author
+    public class Author : IComparable
     { 
         public string Name { get; set; }
         public int Id { get; set; }
@@ -22,9 +22,9 @@ namespace _2Homework
             //BooksTitles.Add(bookTitle);
         }
         
-        public void AddBook(string bookTitle)
+        public void AddBook(string bookName)
         {
-            BooksTitles.Add(bookTitle);
+            BooksTitles.Add(bookName);
         }
 
         public int CountBooks()

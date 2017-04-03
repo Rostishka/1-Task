@@ -2,15 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Xml.Linq;
 using System.Xml.Serialization;
-using NUnit.Framework;
+
 namespace _2Homework
 {
-    public class Department
+    public class Department : BaseEntity, IComparable
     {
-        public string Name { get; set; }
-        public int Id { get; set; }
-
         public List<Book> Books { get; set; }
 
         public Department(string name, int id)
@@ -20,9 +18,9 @@ namespace _2Homework
             Books = new List<Book>();
         }
 
-        public void AddBook(Book bookTitle)
+        public void AddBook(Book book)
         {
-            Books.Add(bookTitle);
+            Books.Add(book);
         }
 
         public int CountBooks()
@@ -53,6 +51,18 @@ namespace _2Homework
         public static void ShowComparapble(Department d1, Department d2)
         {
             Console.WriteLine("Department {0} contains more books than Department {1} : {2}", d1.Name, d2.Name, d1.CompareTo(d2));
+        }
+
+        public override XElement WriteToXml()
+        {
+           var departmentRoot = new XElement(GetType().Name,
+                            new XAttribute("Id", Id),
+                            new XAttribute("Name", Name));
+
+            foreach (var b in Books)
+                departmentRoot.Add(b.WriteToXml());
+
+            return departmentRoot;
         }
     }
 }

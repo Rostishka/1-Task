@@ -6,10 +6,8 @@ using System.Xml.Linq;
 
 namespace _2Homework
 {
-    public class Book : BaseEntity
+    public class Book : BaseEntity, IComparable
     {
-        public string Title { get; set; }
-        public int Id { get; set; }
         public int Quontaty { get; set; }
         public decimal Price { get; set; }
 
@@ -19,29 +17,35 @@ namespace _2Homework
         public Book(string title, Decimal price, int id, int quontaty, Library library, Author author )
         {
             Quontaty = quontaty;
-            Title = title;
+            Name = title;
             Price = price;
             Id = id;
 
-            author.AddBook(this.Title);
-            library.AddAuthor(author.Name); 
+            author.AddBook(this.Name);
+            library.AddAuthor(author.Name);
+            AuthorsNames.Add(author.Name);
         }
 
         public void AddAuthorName(Author auth)
         {
-            auth.AddBook(this.Title);
+            auth.AddBook(this.Name);
             AuthorsNames.Add(auth.Name);
         }
 
+        //public string GetAuthorsName()
+        //{
+        //    return 
+        //}
+
         public override string ToString()
         {
-            return string.Format("Id:{0} Title:\"{1}\"\tCount:{2}", Id, Title, Quontaty);
+            return string.Format("Id:{0} Title:\"{1}\"\tCount:{2}", Id, Name, Quontaty);
         }
 
         private int GetTitleLength()
         {
-            if (string.IsNullOrEmpty(Title)) return 0;
-            return Title.Length;
+            if (string.IsNullOrEmpty(Name)) return 0;
+            return Name.Length;
         }
 
         public int CompareTo(object obj)
@@ -51,12 +55,74 @@ namespace _2Homework
 
         public override XElement WriteToXml()
         {
-            return new XElement(GetNodeName(),
-                        new XAttribute("id", Id),
-                        new XAttribute("title", Title),
-                        new XText(Title),
-                        new XAttribute("price", Price),
-                        new XAttribute("amount", Quontaty));
+            var bookRoot = new XElement(GetNodeName(),
+                        new XAttribute("Id", Id),
+                        new XAttribute("Title", Name),
+                        new XAttribute("Price1", Price),
+                        new XAttribute("Amount", Quontaty));
+
+            foreach (var item in AuthorsNames)
+            {
+                for (int i = 1; i < AuthorsNames.Count + 1; i++)
+                {
+
+                    bookRoot.Add(new XElement($"Author{i}", item));
+                }
+            }
+
+            return bookRoot;
+        }
+
+        public override BaseEntity ReadFromXElement(XElement element, Library library)
+        {
+            Id = BaseXmlManager.GetAttributeByName(element, "Id");
+            Name = BaseXmlManager.GetAttributeByName(element, "Name");
+
+            try
+            {
+                Quontaty = Int32.Parse(BaseXmlManager.GetAttributeByName(element, "Amount"));
+                Price = Int32.Parse(BaseXmlManager.GetAttributeByName(element, "Price"));
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception occured while loading book " + element.Value.ToString());
+                Console.WriteLine(e.ToString());
+            }
+
+            // In order to save 'Author' correctly we need to use 'library' field of this book.
+            // So we need to find Author in the HashSet of authors of the library, or create a new one
+            // and save it in this set
+            var authorName = BaseXmlManager.GetAttributeByName(element, "author");
+
+            var author = from auth in library.AuthorsNames
+                         where auth == authorName
+                         select auth;
+
+            if (!author.Any())
+            {
+                this.AuthorsNames = new Author(authorName);
+                library.Authors.Add(this.Author);
+            }
+            else
+            {
+                var retrievedAuthor = author.First();
+                this.Author = retrievedAuthor;
+                retrievedAuthor.AddBook(this.Name);
+            }
+
+            return this;
+        }
+
+        public override Dictionary<string, string> FieldForEditing()
+        {
+            Dictionary<string, string> field = new Dictionary<string, string>()
+            {
+                {"Name", Name },
+                {"Id", Id.ToString() },
+                {"Price",  Price.ToString() },
+                {"Amount", Quontaty.ToString() }
+            };
+            return field;
         }
     }
 }
