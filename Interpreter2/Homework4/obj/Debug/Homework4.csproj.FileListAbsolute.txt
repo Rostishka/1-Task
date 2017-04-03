@@ -1,0 +1,4 @@
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Interpreter2\Homework4\bin\Debug\Homework4.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Interpreter2\Homework4\bin\Debug\Homework4.pdb
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Interpreter2\Homework4\obj\Debug\Homework4.exe
+E:\щтоу\OneDrive\Documents\Visual Studio 2017\Projects\Interpreter2\Homework4\obj\Debug\Homework4.pdb

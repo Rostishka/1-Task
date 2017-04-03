@@ -1,0 +1,5 @@
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Interpreter2\Interpreter2\obj\Debug\Interpreter2.csprojResolveAssemblyReference.cache
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Interpreter2\Interpreter2\bin\Debug\Interpreter2.exe
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Interpreter2\Interpreter2\bin\Debug\Interpreter2.pdb
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Interpreter2\Interpreter2\obj\Debug\Interpreter2.exe
+e:\щтоу\onedrive\documents\visual studio 2017\Projects\Interpreter2\Interpreter2\obj\Debug\Interpreter2.pdb
