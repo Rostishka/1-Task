@@ -1,0 +1,6 @@
+d:\Documents\1-Task\Interpreter2\CommandPattern\bin\Debug\CommandPattern.exe.config
+d:\Documents\1-Task\Interpreter2\CommandPattern\bin\Debug\CommandPattern.exe
+d:\Documents\1-Task\Interpreter2\CommandPattern\bin\Debug\CommandPattern.pdb
+d:\Documents\1-Task\Interpreter2\CommandPattern\obj\Debug\CommandPattern.csprojResolveAssemblyReference.cache
+d:\Documents\1-Task\Interpreter2\CommandPattern\obj\Debug\CommandPattern.exe
+d:\Documents\1-Task\Interpreter2\CommandPattern\obj\Debug\CommandPattern.pdb

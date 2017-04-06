@@ -3,3 +3,8 @@ e:\щтоу\onedrive\documents\visual studio 2017\Projects\InterpreterExample\In
 e:\щтоу\onedrive\documents\visual studio 2017\Projects\InterpreterExample\InterpreterExample\obj\Debug\InterpreterExample.csprojResolveAssemblyReference.cache
 e:\щтоу\onedrive\documents\visual studio 2017\Projects\InterpreterExample\InterpreterExample\obj\Debug\InterpreterExample.exe
 e:\щтоу\onedrive\documents\visual studio 2017\Projects\InterpreterExample\InterpreterExample\obj\Debug\InterpreterExample.pdb
+d:\Documents\1-Task\InterpreterExample\InterpreterExample\bin\Debug\InterpreterExample.exe
+d:\Documents\1-Task\InterpreterExample\InterpreterExample\bin\Debug\InterpreterExample.pdb
+d:\Documents\1-Task\InterpreterExample\InterpreterExample\obj\Debug\InterpreterExample.csprojResolveAssemblyReference.cache
+d:\Documents\1-Task\InterpreterExample\InterpreterExample\obj\Debug\InterpreterExample.exe
+d:\Documents\1-Task\InterpreterExample\InterpreterExample\obj\Debug\InterpreterExample.pdb

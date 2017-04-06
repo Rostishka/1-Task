@@ -22,7 +22,7 @@ namespace Homework4
             throw new NotImplementedException();
         }
 
-        public void UpdateUser(string id)
+        public void UpdateUser(User obj)
         {
             throw new NotImplementedException();
         }

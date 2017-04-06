@@ -3,3 +3,8 @@ e:\щтоу\onedrive\documents\visual studio 2017\Projects\Interpreter2\Interpre
 e:\щтоу\onedrive\documents\visual studio 2017\Projects\Interpreter2\Interpreter2\bin\Debug\Interpreter2.pdb
 e:\щтоу\onedrive\documents\visual studio 2017\Projects\Interpreter2\Interpreter2\obj\Debug\Interpreter2.exe
 e:\щтоу\onedrive\documents\visual studio 2017\Projects\Interpreter2\Interpreter2\obj\Debug\Interpreter2.pdb
+d:\Documents\1-Task\Interpreter2\Interpreter2\bin\Debug\Interpreter2.exe
+d:\Documents\1-Task\Interpreter2\Interpreter2\bin\Debug\Interpreter2.pdb
+d:\Documents\1-Task\Interpreter2\Interpreter2\obj\Debug\Interpreter2.csprojResolveAssemblyReference.cache
+d:\Documents\1-Task\Interpreter2\Interpreter2\obj\Debug\Interpreter2.exe
+d:\Documents\1-Task\Interpreter2\Interpreter2\obj\Debug\Interpreter2.pdb

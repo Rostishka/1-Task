@@ -2,3 +2,8 @@ E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\AdapterPattern\bin\Debug\Adap
 E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\AdapterPattern\bin\Debug\AdapterPattern.pdb
 E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\AdapterPattern\obj\Debug\AdapterPattern.exe
 E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\AdapterPattern\obj\Debug\AdapterPattern.pdb
+d:\Documents\1-Task\Interpreter2\AdapterPattern\bin\Debug\AdapterPattern.exe
+d:\Documents\1-Task\Interpreter2\AdapterPattern\bin\Debug\AdapterPattern.pdb
+d:\Documents\1-Task\Interpreter2\AdapterPattern\obj\Debug\AdapterPattern.csprojResolveAssemblyReference.cache
+d:\Documents\1-Task\Interpreter2\AdapterPattern\obj\Debug\AdapterPattern.exe
+d:\Documents\1-Task\Interpreter2\AdapterPattern\obj\Debug\AdapterPattern.pdb

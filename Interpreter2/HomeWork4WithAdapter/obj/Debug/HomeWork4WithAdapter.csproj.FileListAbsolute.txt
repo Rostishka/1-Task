@@ -1,0 +1,6 @@
+d:\Documents\1-Task\Interpreter2\HomeWork4WithAdapter\bin\Debug\HomeWork4WithAdapter.exe.config
+d:\Documents\1-Task\Interpreter2\HomeWork4WithAdapter\bin\Debug\HomeWork4WithAdapter.exe
+d:\Documents\1-Task\Interpreter2\HomeWork4WithAdapter\bin\Debug\HomeWork4WithAdapter.pdb
+d:\Documents\1-Task\Interpreter2\HomeWork4WithAdapter\obj\Debug\HomeWork4WithAdapter.csprojResolveAssemblyReference.cache
+d:\Documents\1-Task\Interpreter2\HomeWork4WithAdapter\obj\Debug\HomeWork4WithAdapter.exe
+d:\Documents\1-Task\Interpreter2\HomeWork4WithAdapter\obj\Debug\HomeWork4WithAdapter.pdb

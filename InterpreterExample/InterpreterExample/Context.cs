@@ -6,14 +6,15 @@ using System.Text;
 namespace InterpreterExample
 {
     class Context
-    {
+    {   //
+        Dictionary<string, Dictionary<string, string>> addString = new Dictionary<string,Dictionary<string, string>>();
         private string _input;
         private int _output;
 
         // Constructor
         public Context(string input)
         {
-            this._input = input;
+            _input = input;
         }
 
         // Gets or sets input
