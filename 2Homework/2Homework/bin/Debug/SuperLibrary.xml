@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Library Id="1" Name="Ternopilska Library" Address="Zhivova 34">
+  <Department Id="11" Name="IT">
+    <Book Id="21" Title="Лев та миша" Price="21" Amount="3">
+      <Author1>Джек Лоднон</Author1>
+    </Book>
+    <Book Id="0" Title="Ward and Peace" Price="122" Amount="2">
+      <Author1>Эндрю Троелсен</Author1>
+    </Book>
+    <Book Id="3" Title="C# 6.0. Справочник. Полное описание языка" Price="1040" Amount="12">
+      <Author1>Джозеф Албахари</Author1>
+    </Book>
+    <Book Id="4" Title="C# 5.0. Справочник. Полное описание языка" Price="1008" Amount="8">
+      <Author1>Джозеф Албахари</Author1>
+    </Book>
+    <Book Id="2" Title="Язык программирования C# 6.0 и платформа .NET 4.6" Price="1440" Amount="7">
+      <Author1>Эндрю Троелсен</Author1>
+    </Book>
+    <Book Id="1" Title="Язык программирования C# 5.0 и платформа .NET 4.5" Price="1311" Amount="3">
+      <Author1>Эндрю Троелсен</Author1>
+    </Book>
+  </Department>
+  <Department Id="12" Name="OHERNAME">
+    <Book Id="5" Title="Катерина" Price="233" Amount="11">
+      <Author1>Тарас Шевченко</Author1>
+    </Book>
+    <Book Id="6" Title="Гайдамаки" Price="430" Amount="12">
+      <Author1>Тарас Шевченко</Author1>
+    </Book>
+    <Book Id="7" Title="Утоплена" Price="201" Amount="56">
+      <Author1>Тарас Шевченко</Author1>
+    </Book>
+    <Book Id="9" Title="Тарасова ніч" Price="78" Amount="44">
+      <Author1>Тарас Шевченко</Author1>
+    </Book>
+    <Book Id="9" Title="Кобзар" Price="420" Amount="7">
+      <Author1>Тарас Шевченко</Author1>
+    </Book>
+    <Book Id="10" Title="Істар" Price="75" Amount="65">
+      <Author1>Тарас Шевченко</Author1>
+    </Book>
+    <Book Id="11" Title="Смерть Каїна" Price="24" Amount="123">
+      <Author1>Iван Франко</Author1>
+    </Book>
+    <Book Id="12" Title="Вічний Револціонер" Price="1" Amount="13">
+      <Author1>Iван Франко</Author1>
+    </Book>
+    <Book Id="13" Title="Лис Микита" Price="50" Amount="2">
+      <Author1>Iван Франко</Author1>
+    </Book>
+    <Book Id="14" Title="Мойсей" Price="540" Amount="1">
+      <Author1>Iван Франко</Author1>
+    </Book>
+    <Book Id="15" Title="Страшний Суд" Price="200" Amount="0">
+      <Author1>Iван Франко</Author1>
+    </Book>
+  </Department>
+  <Department Id="13" Name="000000000">
+    <Book Id="16" Title="Жага до життя" Price="75" Amount="22">
+      <Author1>Джек Лоднон</Author1>
+    </Book>
+    <Book Id="17" Title="Зов предков" Price="243" Amount="54">
+      <Author1>Джек Лоднон</Author1>
+    </Book>
+    <Book Id="18" Title="Біле ікло" Price="603" Amount="98">
+      <Author1>Джек Лоднон</Author1>
+    </Book>
+    <Book Id="19" Title="Залізна пята" Price="530" Amount="23">
+      <Author1>Джек Лоднон</Author1>
+    </Book>
+    <Book Id="20" Title="Байки Езопа" Price="40" Amount="11">
+      <Author1>Джек Лоднон</Author1>
+    </Book>
+  </Department>
+</Library>

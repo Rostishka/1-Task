@@ -17,7 +17,7 @@ namespace _2Homework
 
         public Library(string name, string address, int id)
         {
-            Id = id;
+            Id = id.ToString();
             Name = name;
             Address = address;
         }
@@ -71,7 +71,17 @@ namespace _2Homework
 
         public override BaseEntity ReadFromXElement(XElement element, Library library)
         {
-            throw new NotImplementedException();
+            Id = BaseXmlManager.GetAttributeByName(element, "Id");
+            Name = BaseXmlManager.GetAttributeByName(element, "Name");
+            Address = BaseXmlManager.GetAttributeByName(element, "Address");
+
+            foreach(var elem in element.Elements())
+            {
+                var dep = (Department)new Department().ReadFromXElement(elem, this);
+                this.AddDepartment(dep);
+            }
+
+            return this;
         }
 
         public override Dictionary<string, string> FieldForEditing()

@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework4", "Homework4\Home
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterpreterExample", "..\InterpreterExample\InterpreterExample\InterpreterExample.csproj", "{969550D7-B2C9-47F2-BB63-32A7DDE0A70F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommandRealExample", "..\..\Visual Studio 2017\Projects\CommandPattern\CommandRealExample\CommandRealExample.csproj", "{92A9371D-8AD6-49B5-9279-C6FFABA9E69D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{D1A69095-1F72-42A2-9851-3AFF87FB46A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{969550D7-B2C9-47F2-BB63-32A7DDE0A70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{969550D7-B2C9-47F2-BB63-32A7DDE0A70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{969550D7-B2C9-47F2-BB63-32A7DDE0A70F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92A9371D-8AD6-49B5-9279-C6FFABA9E69D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92A9371D-8AD6-49B5-9279-C6FFABA9E69D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92A9371D-8AD6-49B5-9279-C6FFABA9E69D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92A9371D-8AD6-49B5-9279-C6FFABA9E69D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1A69095-1F72-42A2-9851-3AFF87FB46A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1A69095-1F72-42A2-9851-3AFF87FB46A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1A69095-1F72-42A2-9851-3AFF87FB46A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1A69095-1F72-42A2-9851-3AFF87FB46A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

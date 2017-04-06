@@ -4,15 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Xml.Linq;
 
-namespace _2Homework.XML
+namespace _2Homework
 {
-    class DepartmentXmlManager : BaseXmlManager
+    public class DepartmentXmlManager : BaseXmlManager
     {
         private readonly Library _library;
 
         public DepartmentXmlManager(string _fileName, Library library) : base(_fileName)
         {
-           
+            _library = library;
         }
 
         public void AddDepartment(Department department)

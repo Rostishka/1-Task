@@ -2,13 +2,16 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace _2Homework
 {
     class Program
     {
+        const string FileName = "SuperLibrary.xml";
+
         static void Main(string[] args)
-        {
+        {  
             var lib1 = new Library("Ternopilska Library", "Zhivova 34", 1);
             //=====================================================================================
             var depart1 = new Department("IT", 11);
@@ -42,19 +45,19 @@ namespace _2Homework
             Book b18 = new Book("Біле ікло", 603, 18, 98, lib1, a5);
             Book b19 = new Book("Залізна пята", 530, 19, 23, lib1, a5);
             Book b20 = new Book("Байки Езопа", 40, 20, 11, lib1, a5);
-            Book b21 = new Book("Лев та миша", 21, 21, 3, lib1, a5);
+            depart1.AddBook(new Book("Лев та миша", 21, 21, 3, lib1, a5));
 
             //Can't add author to book because of cicle
             //b10.Autors.Add(a3);
-            //=====================================================================================
-         
-            //book1.Autors.Add(a1);
-            //=====================================================================================
-            depart1.Books.AddRange(new[] { book, book1, b2, b3, b4 });
 
-            depart2.Books.AddRange(new[] { b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15 });
+            depart1.AddBook(book);
+            depart1.AddBook(b3);
+            depart1.AddBook(b4);
+            depart1.AddBook(b2);
+            depart1.AddBook(book1);
 
-            depart3.Books.AddRange(new[] { b16, b17, b18, b20, b21 });
+            depart2.GetBooks.AddRange(new[] { b5, b6, b7, b8, b9, b10, b11, b12, b13, b14, b15 });
+            depart3.GetBooks.AddRange(new[] { b16, b17, b18, b19, b20});
             //=====================================================================================
             Console.WriteLine(a1.CountBooks());
             Console.WriteLine(a2.CountBooks());
@@ -80,16 +83,36 @@ namespace _2Homework
             Author.ShowComparapble(a1, a2);
             //=====================================================================================
             Console.WriteLine(new string('-', 100));
-            b20.AddAuthorName(a3);
+            //b20.AddAuthorName(a3);
             Console.WriteLine(a3.CountBooks());
 
-            
-            XmlManager manager = new XmlManager();
-          
-            manager.DeleteEntity(depart1);
-            manager.SaveLibrary(lib1);
+        
+
+            XmlStorarting(lib1);
+
+            depart2.Name = "OHERNAME";
+            var globalManager = new LibraryXmlManager(FileName);
+            globalManager.UpdateEntity(depart2);
+
+            depart3.Name = "000000000";
+            globalManager.UpdateEntity(depart3);
+            b12.Price = 11;//ціна не змінюється бо її нема в бейз ентіті напевно ід теж не змінється бо там накручено
+
+            globalManager.UpdateEntity(b12);
 
             Console.ReadKey();
+        }
+
+        public static void XmlStorarting(Library library)
+        {
+            var file = new FileStream(FileName, FileMode.Create);
+            file.Dispose();
+
+            var xmlManager = new LibraryXmlManager(FileName);
+
+            xmlManager.SaveLibrary(library);
+
+            var lib = xmlManager.LoadEntity();
         }
     }
 }

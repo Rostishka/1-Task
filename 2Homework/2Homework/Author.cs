@@ -14,12 +14,11 @@ namespace _2Homework
 
         private HashSet<string> BooksTitles = new HashSet<string>();
 
-        public Author(string name, int age, int id/*, string bookTitle*/)
+        public Author(string name, int age, int id)
         {
             Name = name;
             Id = id;
             Age = age;
-            //BooksTitles.Add(bookTitle);
         }
         
         public void AddBook(string bookName)

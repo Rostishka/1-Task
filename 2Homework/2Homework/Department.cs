@@ -9,13 +9,24 @@ namespace _2Homework
 {
     public class Department : BaseEntity, IComparable
     {
-        public List<Book> Books { get; set; }
+        private List<Book> Books = new List<Book>();
+
+        public List<Book> GetBooks
+        {
+            get { return Books; }
+            set { Books = value; }
+        }
 
         public Department(string name, int id)
         {
             Name = name;
-            Id = id;
+            Id = id.ToString();
             Books = new List<Book>();
+        }
+
+        public Department()
+        {
+
         }
 
         public void AddBook(Book book)
@@ -63,6 +74,30 @@ namespace _2Homework
                 departmentRoot.Add(b.WriteToXml());
 
             return departmentRoot;
+        }
+
+        public override BaseEntity ReadFromXElement(XElement element, Library library)
+        {
+            this.Id = BaseXmlManager.GetAttributeByName(element, "Id");
+            this.Name = BaseXmlManager.GetAttributeByName(element, "Name");
+
+            foreach(var elem in element.Elements())
+            {
+                var bookItem = (Book)new Book().ReadFromXElement(elem, library);
+                this.AddBook(bookItem);
+            }
+            return this;
+        }
+
+        public override Dictionary<string, string> FieldForEditing()
+        {
+            Dictionary<string, string> field = new Dictionary<string, string>()
+            {
+                {"Name", Name },
+                {"Id", Id }
+            };
+
+            return field;
         }
     }
 }

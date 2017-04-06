@@ -19,11 +19,16 @@ namespace _2Homework
             Quontaty = quontaty;
             Name = title;
             Price = price;
-            Id = id;
+            Id = id.ToString();
 
             author.AddBook(this.Name);
             library.AddAuthor(author.Name);
             AuthorsNames.Add(author.Name);
+        }
+
+        public Book()
+        {
+
         }
 
         public void AddAuthorName(Author auth)
@@ -31,11 +36,6 @@ namespace _2Homework
             auth.AddBook(this.Name);
             AuthorsNames.Add(auth.Name);
         }
-
-        //public string GetAuthorsName()
-        //{
-        //    return 
-        //}
 
         public override string ToString()
         {
@@ -58,7 +58,7 @@ namespace _2Homework
             var bookRoot = new XElement(GetNodeName(),
                         new XAttribute("Id", Id),
                         new XAttribute("Title", Name),
-                        new XAttribute("Price1", Price),
+                        new XAttribute("Price", Price),
                         new XAttribute("Amount", Quontaty));
 
             foreach (var item in AuthorsNames)
@@ -76,7 +76,7 @@ namespace _2Homework
         public override BaseEntity ReadFromXElement(XElement element, Library library)
         {
             Id = BaseXmlManager.GetAttributeByName(element, "Id");
-            Name = BaseXmlManager.GetAttributeByName(element, "Name");
+            Name = BaseXmlManager.GetAttributeByName(element, "Title");
 
             try
             {
@@ -92,23 +92,29 @@ namespace _2Homework
             // In order to save 'Author' correctly we need to use 'library' field of this book.
             // So we need to find Author in the HashSet of authors of the library, or create a new one
             // and save it in this set
-            var authorName = BaseXmlManager.GetAttributeByName(element, "author");
+            //var authorName = BaseXmlManager.GetAttributeByName(element, "Author");
+            //foreach (var name in AuthorsNames)
+            //{
+            //    element.Add(name);    
+            //}
 
-            var author = from auth in library.AuthorsNames
-                         where auth == authorName
-                         select auth;
+            //return this;
 
-            if (!author.Any())
-            {
-                this.AuthorsNames = new Author(authorName);
-                library.Authors.Add(this.Author);
-            }
-            else
-            {
-                var retrievedAuthor = author.First();
-                this.Author = retrievedAuthor;
-                retrievedAuthor.AddBook(this.Name);
-            }
+            //var author = from auth in library.AuthorsNames
+            //             where auth == authorName
+            //             select auth;
+
+            //if (!author.Any())
+            //{
+            //    this.AuthorsNames = new Author(authorName);
+            //    library.Authors.Add(this.Author);
+            //}
+            //else
+            //{
+            //    var retrievedAuthor = author.First();
+            //    this.Author = retrievedAuthor;
+            //    retrievedAuthor.AddBook(this.Name);
+            //}
 
             return this;
         }
