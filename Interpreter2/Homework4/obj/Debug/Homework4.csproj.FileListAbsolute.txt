@@ -7,3 +7,10 @@ d:\Documents\1-Task\Interpreter2\Homework4\bin\Debug\Homework4.exe
 d:\Documents\1-Task\Interpreter2\Homework4\bin\Debug\Homework4.pdb
 d:\Documents\1-Task\Interpreter2\Homework4\obj\Debug\Homework4.exe
 d:\Documents\1-Task\Interpreter2\Homework4\obj\Debug\Homework4.pdb
+E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\Homework4\bin\Debug\Homework4.exe
+E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\Homework4\bin\Debug\Homework4.pdb
+E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\Homework4\obj\Debug\Homework4.csprojResolveAssemblyReference.cache
+E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\Homework4\obj\Debug\Homework4.exe
+E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\Homework4\obj\Debug\Homework4.pdb
+E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\Homework4\bin\Debug\Newtonsoft.Json.dll
+E:\щтоу\OneDrive\Documents\1-Task\Interpreter2\Homework4\bin\Debug\Newtonsoft.Json.xml

@@ -5,19 +5,18 @@ using System.Text;
 
 namespace Homework4
 {
-    class Invoker
+    public class Invoker
     {
-        public CommanderC _commander;
         public List<Command> _commands = new List<Command>();
 
-        public void Compute(string @command)
+        public void Compute(string command, CommanderC commander)
         {
             // Create command operation and execute it
-            Command someCommand = new ConcreteCommand(@command);
-            someCommand.Execute();
-
+            Command someCommand = new CrudCommand(command, commander);
             //Add command into command list
+            someCommand.Execute();
             _commands.Add(someCommand);
+                 
         }
     }
 }

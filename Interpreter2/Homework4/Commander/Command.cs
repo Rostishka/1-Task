@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Homework4
 {
-    public abstract class Command
+    public abstract class Command : ICommand
     {
             public abstract void Execute();
     }

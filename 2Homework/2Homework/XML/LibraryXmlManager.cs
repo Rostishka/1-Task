@@ -53,7 +53,7 @@ namespace _2Homework
             var doc = XDocument.Load(FileName);
 
             var element = RetrieveXElement(entity, doc.Root);
-            if (element != null)
+            if (element != null)//here element == null figure out with it
             {
                 foreach (var field in entity.FieldForEditing())
                 {

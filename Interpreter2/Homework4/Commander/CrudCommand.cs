@@ -5,14 +5,15 @@ using System.Text;
 
 namespace Homework4
 {
-     public class ConcreteCommand : Command
+     public class CrudCommand : Command
     {
         public string _commandConcrete;
         CommanderC _commander;
-        public ConcreteCommand(/*Receiver r,*/ string @command)
+
+        public CrudCommand(string command, CommanderC commander)
         {
-            //this._receiver = r;
-            this._commandConcrete = @command;
+            this._commander = commander;
+            this._commandConcrete = command;
         }
 
         public string Commanda

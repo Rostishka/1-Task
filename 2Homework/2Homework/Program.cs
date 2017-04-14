@@ -96,9 +96,10 @@ namespace _2Homework
 
             depart3.Name = "000000000";
             globalManager.UpdateEntity(depart3);
-            b12.Price = 11;//ціна не змінюється бо її нема в бейз ентіті напевно ід теж не змінється бо там накручено
-
-            globalManager.UpdateEntity(b12);
+            b12.Price = 3222;//ціна не змінюється бо її нема в бейз ентіті напевно ід теж не змінється бо там накручено
+            //b10.Quontaty = 122;
+            globalManager.UpdateEntity(b10);
+            //globalManager.UpdateEntity(b12);
 
             Console.ReadKey();
         }

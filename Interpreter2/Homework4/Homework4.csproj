@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,14 +45,21 @@
   <ItemGroup>
     <Compile Include="Commander\Command.cs" />
     <Compile Include="Commander\CommanderC.cs" />
-    <Compile Include="Commander\ConcreteCommand.cs" />
+    <Compile Include="Commander\CrudCommand.cs" />
+    <Compile Include="Commander\ICommand.cs" />
+    <Compile Include="Commander\ICrudCommand.cs" />
     <Compile Include="Commander\Invoker.cs" />
-    <Compile Include="Context.cs" />
+    <Compile Include="Interpreter\Context.cs" />
     <Compile Include="IMaintanable.cs" />
+    <Compile Include="Interpreter\Expression.cs" />
+    <Compile Include="Json\JsonManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs" />
     <Compile Include="UserManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

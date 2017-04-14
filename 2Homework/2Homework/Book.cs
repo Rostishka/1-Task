@@ -9,12 +9,12 @@ namespace _2Homework
     public class Book : BaseEntity, IComparable
     {
         public int Quontaty { get; set; }
-        public decimal Price { get; set; }
+        public int Price { get; set; }
 
         public List<Author> Autors = new List<Author>();
         public HashSet<string> AuthorsNames = new HashSet<string>();
 
-        public Book(string title, Decimal price, int id, int quontaty, Library library, Author author )
+        public Book(string title, int price, int id, int quontaty, Library library, Author author )
         {
             Quontaty = quontaty;
             Name = title;
