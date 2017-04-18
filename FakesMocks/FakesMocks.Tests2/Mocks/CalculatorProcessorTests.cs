@@ -30,7 +30,7 @@ namespace FakesMocks.Tests2.Mocks
             var b = String.Empty;
             calculationProcessor.Calculate(a, b);
 
-            //Assert
+            //Assertgf
             notificationProcessorStub.Verify(x => x.Notify(exeption.Message, NotificationTypes.Error), Times.Once);
         }
 

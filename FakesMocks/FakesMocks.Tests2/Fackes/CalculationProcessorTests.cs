@@ -50,8 +50,7 @@ namespace FakesMocks.Tests2.Fackes
                 calculationProcessor.Calculate(a, b);
 
                 //Assert
-                Assert.AreEqual(notificationProcessor.NotificationType, NotificationTypes.Success);
-                Assert.AreEqual(notificationProcessor.Message, "{ Object; String }");
+                Assert.AreEqual(notificationProcessor.NotificationType, NotificationTypes.Success);ihw
             }
 
             private sealed class FackeNotificationProcessor : INotificationProcessor
