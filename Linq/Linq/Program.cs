@@ -12,6 +12,21 @@ namespace Linq
         {
             TestSet someset = new TestSet();
 
+            Console.WriteLine(
+                "Size of array{6}, in number of the array: {0}, max number: {1}, sum of all numbers: {2}, avarage number: {3}," +
+                "Hash Code: {4}, Type of variable someset: {5}", 
+      someset.Min(), someset.Max(), someset.Sum(), someset.Average(), someset.GetHashCode(), someset.GetType(), someset.Count());
+
+
+            bool any = false;
+            foreach (var i in someset)
+            {
+                any = true;
+                break;
+            }
+            Console.WriteLine(any);
+            Console.WriteLine(someset.GetEnumerator());
+            Console.WriteLine(someset.AsQueryable());
             // var filteredArray = someset.Where<int>(s => s > 60);
 
             //var filteredArray = someset.Select(s => "*" + s.ToString() + "use");
