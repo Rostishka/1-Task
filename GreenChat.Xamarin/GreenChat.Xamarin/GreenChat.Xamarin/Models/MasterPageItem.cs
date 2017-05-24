@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace GreenChatXamarin.Models
+namespace GreenChat.Xamarin.Models
 {
 	public class MasterPageItem
 	{

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using GreenChat.Xamarin.Views;
-using GreenChatXamarin.Models;
+using GreenChat.Xamarin.Models;
 using Xamarin.Forms;
 
 namespace GreenChat.Xamarin
@@ -14,15 +14,21 @@ namespace GreenChat.Xamarin
 			InitializeComponent ();
 
 			var masterPageItems = new List<MasterPageItem> ();
+            masterPageItems.Add(new MasterPageItem
+            {
+                Title = "Story",
+                IconSource = "reminders.png",
+                TargetType = typeof(MainPageView)
+            });
 			masterPageItems.Add (new MasterPageItem {
-				Title = "Contacts",
+				Title = "Friends",
 				IconSource = "contacts.png",
-				TargetType = typeof(SettingsPageView)
+				TargetType = typeof(FriendsListPageView)
 			});
 			masterPageItems.Add (new MasterPageItem {
-				Title = "TodoList",
+				Title = "Settings",
 				IconSource = "todo.png",
-				TargetType = typeof(FriendsListPageView)
+				TargetType = typeof(SettingsPageView)
 			});
 
 			listView.ItemsSource = masterPageItems;

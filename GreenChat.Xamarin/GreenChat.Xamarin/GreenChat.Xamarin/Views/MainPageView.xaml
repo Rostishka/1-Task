@@ -9,7 +9,8 @@
 
     <ContentPage.Content>
         <StackLayout>
-            <Label FontSize="24" Text="There will be some other features like: Friends, ListGroup Chats, News etc." HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
+            <Label FontSize="24" Text="There will be some other features like: Personal Story, Chats, News etc." 
+                   HorizontalOptions="Center" VerticalOptions="CenterAndExpand"/>
         </StackLayout>
     </ContentPage.Content>
 

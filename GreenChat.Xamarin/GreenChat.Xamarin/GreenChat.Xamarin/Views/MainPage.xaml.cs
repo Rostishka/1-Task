@@ -1,5 +1,5 @@
 ﻿using System;
-using GreenChatXamarin.Models;
+using GreenChat.Xamarin.Models;
 using Xamarin.Forms;
 
 namespace GreenChat.Xamarin
@@ -11,10 +11,6 @@ namespace GreenChat.Xamarin
 			InitializeComponent ();
 
 			masterPage.ListView.ItemSelected += OnItemSelected;
-
-			if (Device.OS == TargetPlatform.Windows) {
-				Master.Icon = "swap.png";
-			}
 		}
 
 		void OnItemSelected (object sender, SelectedItemChangedEventArgs e)

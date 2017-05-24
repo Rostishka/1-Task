@@ -4,7 +4,7 @@ using System.Windows.Input;
 using GreenChat.Xamarin.Views;
 using Xamarin.Forms;
 
-namespace GreenChatXamarin.ViewModels
+namespace GreenChat.Xamarin.ViewModels
 {
     public class FriendsListViewModel : INotifyPropertyChanged
     {

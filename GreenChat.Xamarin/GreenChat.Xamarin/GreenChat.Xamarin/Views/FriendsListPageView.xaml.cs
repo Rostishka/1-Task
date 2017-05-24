@@ -1,4 +1,4 @@
-﻿using GreenChatXamarin.ViewModels;
+﻿using GreenChat.Xamarin.ViewModels;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

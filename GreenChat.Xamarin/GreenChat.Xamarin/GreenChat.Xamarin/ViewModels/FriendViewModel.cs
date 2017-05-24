@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
-using GreenChatXamarin.Models;
+using GreenChat.Xamarin.Models;
 
-namespace GreenChatXamarin.ViewModels
+namespace GreenChat.Xamarin.ViewModels
 {
     public class FriendViewModel : INotifyPropertyChanged
     {
