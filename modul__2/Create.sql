@@ -8,12 +8,40 @@ INSERT INTO tBooks
 
 INSERT INTO tBooks
 	([bName], [bAuthor], [bGenre], [bBookMaker], [bPrice], [bAmount], [bOrdered])
-	VALUES ('Romeo', 2, 2, 2, 12, 200, 66);
+	VALUES ('Romeo', 1, 2, 2, 12, 200, 66);
 	GO
 
 INSERT INTO tBooks
 	([bName], [bAuthor], [bGenre], [bBookMaker], [bPrice], [bAmount], [bOrdered])
 	VALUES ('SomeBook', 3, 3, 3, 3, 300, 77);
+	GO
+
+	INSERT INTO tBooks
+	([bName], [bAuthor], [bGenre], [bBookMaker], [bPrice], [bAmount], [bOrdered])
+	VALUES ('Love', 1, 1, 1, 23, 100, 55);
+	GO
+
+INSERT INTO tBooks
+	([bName], [bAuthor], [bGenre], [bBookMaker], [bPrice], [bAmount], [bOrdered])
+	VALUES ('Death', 2, 2, 2, 12, 200, 66);
+	GO
+	INSERT INTO tBooks
+	([bName], [bAuthor], [bGenre], [bBookMaker], [bPrice], [bAmount], [bOrdered])
+	VALUES ('Drakness', 1, 1, 1, 23, 100, 55);
+	GO
+
+INSERT INTO tBooks
+	([bName], [bAuthor], [bGenre], [bBookMaker], [bPrice], [bAmount], [bOrdered])
+	VALUES ('Jumanji', 2, 2, 2, 12, 200, 66);
+	GO
+	INSERT INTO tBooks
+	([bName], [bAuthor], [bGenre], [bBookMaker], [bPrice], [bAmount], [bOrdered])
+	VALUES ('LaLaLand', 1, 1, 1, 23, 100, 55);
+	GO
+
+INSERT INTO tBooks
+	([bName], [bAuthor], [bGenre], [bBookMaker], [bPrice], [bAmount], [bOrdered])
+	VALUES ('Forse', 2, 2, 2, 12, 200, 66);
 	GO
 
 INSERT INTO tAuthors

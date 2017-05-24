@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="GChat.App">
+	<Application.Resources>
+
+	    <ResourceDictionary>
+            <Color x:Key="textColor">DarkGreen</Color>
+            <Color x:Key="backColor">GreenYellow</Color>
+	        <x:String x:Key="fontSize">Large</x:String>
+            <TextCell x:Key="mainPageText"></TextCell>
+	    </ResourceDictionary>
+        <!-- Application resource dictionary -->
+
+	</Application.Resources>
+</Application>

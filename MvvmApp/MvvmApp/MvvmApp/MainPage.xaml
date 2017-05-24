@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MvvmApp"
+             x:Class="MvvmApp.MainPage"
+             Title="Phone Info">
+
+    <StackLayout>
+        <Entry Text="{Binding Title}" FontSize="Medium" />
+        <Entry Text="{Binding Company}" FontSize="Medium" />
+        <Entry Text="{Binding Price}" FontSize="Medium" />
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Сохранить" Command="{Binding SavePhoneCommand}" />
+            <Button Text="Удалить" Command="{Binding DeletePhoneCommand}" />
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ListViewEvents.OnlineFriendsTabbedPage"
+             Title="OnlineFriendsTabbedPage">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="buttonStyle" TargetType="Button">
+                <Setter Property="HorizontalOptions" Value="End"/>
+                <Setter Property="VerticalOptions" Value="End"/>
+                <Setter Property="FontSize" Value="22"/>
+                <Setter Property="BorderColor" Value="BlueViolet"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="BorderRadius" Value="5"/>
+                <Setter Property="BackgroundColor" Value="DarkTurquoise"/>
+                <!--<Setter Property="Height" Value="25"></Setter>-->
+            </Style>
+
+            <Style TargetType="Label">
+                <Setter Property="HorizontalOptions" Value="Start"/>
+                <Setter Property="VerticalOptions" Value="Start"/>
+                <Setter Property="FontSize" Value="14"/>
+            </Style>
+
+            <Style x:Key="baseStyle" TargetType="View">
+                <Setter Property="HorizontalOptions" Value="Center"/>
+                <Setter Property="VerticalOptions" Value="Center"/>
+            </Style>
+
+            <Style x:Key="entryStyle" TargetType="Entry" BasedOn="{StaticResource baseStyle}">
+                <Setter Property="TextColor" Value="GreenYellow"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <Label Text="This label uses an implicit style"/>
+            <Label Text="This label too" FontSize="24"/>
+            <Entry Style="{StaticResource entryStyle}" Placeholder="This Entry uses an inherited style"/>
+            <Button Style="{StaticResource buttonStyle}" Text="Using an explicit style"/>
+            <Button Text="Not using styles"/>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

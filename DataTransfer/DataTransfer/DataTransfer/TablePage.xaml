@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:dataTransfer="clr-namespace:DataTransfer;assembly=DataTransfer"
+             x:Class="DataTransfer.TablePage">
+    <TabbedPage.Children>
+        <dataTransfer:Page1 />
+        <dataTransfer:Page2 />
+        <dataTransfer:Page3/>
+    </TabbedPage.Children>
+</TabbedPage>

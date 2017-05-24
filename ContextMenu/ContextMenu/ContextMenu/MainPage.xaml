@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ContextMenu"
+             x:Class="ContextMenu.MainPage">
+    
+    <StackLayout>
+        <ListView ItemsSource="{Binding Phones}" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Вверх"
+                                      Command="{Binding Path=ListViewModel.MoveToTopCommand}" CommandParameter="{Binding}" />
+                            <MenuItem Text="Вниз"
+                                      Command="{Binding Path=ListViewModel.MoveToBottomCommand}" CommandParameter="{Binding}" />
+                            <MenuItem Text="Удалить"
+                                      Command="{Binding Path=ListViewModel.RemoveCommand}" CommandParameter="{Binding}" />
+                        </ViewCell.ContextActions>
+                        <ViewCell.View>
+                            <StackLayout>
+                                <Label Text="{Binding Title}" FontSize="Medium" />
+                                <Label Text="{Binding Company}" FontSize="Small" />
+                                <Label Text="{Binding Price}" FontSize="Small" />
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+    
+</ContentPage>
