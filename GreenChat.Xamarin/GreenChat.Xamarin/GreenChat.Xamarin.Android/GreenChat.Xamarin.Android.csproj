@@ -5,12 +5,12 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FD3B2F43-3CC4-4F56-A4C7-D7FF05EFC663}</ProjectGuid>
+    <ProjectGuid>{D93D3836-9CE5-4D61-88FE-14FB80E30C9C}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>GChat.Droid</RootNamespace>
-    <AssemblyName>GChat.Android</AssemblyName>
+    <RootNamespace>GreenChat.Xamarin.Droid</RootNamespace>
+    <AssemblyName>GreenChat.Xamarin.Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
@@ -120,9 +120,9 @@
     <AndroidResource Include="Resources\values\styles.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\GChat\GChat.csproj">
-      <Project>{1441d565-6018-43f3-a939-f3dfa605162d}</Project>
-      <Name>GChat</Name>
+    <ProjectReference Include="..\GreenChat.Xamarin\GreenChat.Xamarin.csproj">
+      <Project>{725ce293-69cc-4761-bbf1-1096e0d0d3ab}</Project>
+      <Name>GreenChat.Xamarin</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
