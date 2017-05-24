@@ -6,7 +6,7 @@ namespace ModalNavigation
 	{
 		public App ()
 		{
-			MainPage = new MainPage ();
+			MainPage = new MainPagew(); 
 		}
 
 		protected override void OnStart ()
