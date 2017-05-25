@@ -3,14 +3,15 @@
 				  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
 				  xmlns:local="clr-namespace:GreenChat.Xamarin;assembly=GreenChat.Xamarin"
 				  xmlns:views="clr-namespace:GreenChat.Xamarin.Views;assembly=GreenChat.Xamarin"
-				  x:Class="GreenChat.Xamarin.MainPage">
+				  x:Class="GreenChat.Xamarin.MainPage"
+                  BackgroundColor="GreenYellow">
   <MasterDetailPage.Master>
   	<local:MasterPage x:Name="masterPage" />
   </MasterDetailPage.Master>
 	<MasterDetailPage.Detail>
 		<NavigationPage>
 			<x:Arguments>
-                <views:SettingsPageView />
+                <views:MainPageView />
 			</x:Arguments>
 		</NavigationPage>
 	</MasterDetailPage.Detail>

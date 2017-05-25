@@ -4,14 +4,15 @@
 			 x:Class="GreenChat.Xamarin.MasterPage"
 			 Padding="0,40,0,0"
 			 Icon="hamburger.png"
-			 Title="Personal Organiser">
+			 Title="GreenChat"
+             BackgroundColor="DarkGreen">
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="FillAndExpand">
 			<ListView x:Name="listView" VerticalOptions="FillAndExpand" SeparatorVisibility="None">
 				<ListView.ItemTemplate>
 					<DataTemplate>
-						<ImageCell Text="{Binding Title}" ImageSource="{Binding IconSource}" />
-					</DataTemplate>
+						<ImageCell Text="{Binding Title}" TextColor="White"  ImageSource="{Binding IconSource}" />
+					</DataTemplate> 
 				</ListView.ItemTemplate>
 			</ListView>
 		</StackLayout>

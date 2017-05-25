@@ -1,5 +1,5 @@
 ﻿
-namespace GreenChatXamarin.Models
+namespace GreenChat.Xamarin.Models
 {
      public static class UsersData
     {

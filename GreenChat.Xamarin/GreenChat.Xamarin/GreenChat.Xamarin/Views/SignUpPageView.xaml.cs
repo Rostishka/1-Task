@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using GreenChatXamarin.Models;
+using GreenChat.Xamarin.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -33,7 +33,9 @@ namespace GreenChat.Xamarin.Views
                 if (rootPage != null)
                 {
                     App.IsUserLoggedIn = true;
-                    Navigation.InsertPageBefore(new MainDetailPageView(), Navigation.NavigationStack.First());
+
+                    //await Navigation.PushAsync(new MainPage());
+                    Navigation.InsertPageBefore(new MainPage(), Navigation.NavigationStack.First());
                     await Navigation.PopToRootAsync();
                 }
             }

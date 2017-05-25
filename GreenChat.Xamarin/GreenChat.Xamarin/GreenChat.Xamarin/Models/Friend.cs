@@ -1,4 +1,4 @@
-﻿namespace GreenChatXamarin.Models
+﻿namespace GreenChat.Xamarin.Models
 {
     public class Friend
     {

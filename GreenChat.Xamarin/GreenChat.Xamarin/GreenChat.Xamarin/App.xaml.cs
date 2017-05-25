@@ -14,15 +14,15 @@ namespace GreenChat.Xamarin
 
         public App()
         {
-            MainPage = new MainPage();
-            //if (!IsUserLoggedIn)
-            //{
-            //    MainPage = new NavigationPage(new LogInPageView());
-            //}
-            //else
-            //{
-            //    MainPage = new NavigationPage(new SignUpPageView());
-            //}
+            // MainPage = new LogInPageView();
+            if (!IsUserLoggedIn)
+            {
+                MainPage = new NavigationPage(new LogInPageView());
+            }
+            else
+            {
+                MainPage = new NavigationPage(new SignUpPageView());
+            }
         }
 
         protected override void OnStart()

@@ -6,7 +6,7 @@
     
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Settings data goes here" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Label FontSize="Large" Text="Settings data goes here such as LogOut etc." HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
     
