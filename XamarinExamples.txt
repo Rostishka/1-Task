@@ -9,5 +9,13 @@ https://developer.xamarin.com/samples/xamarin-forms/UserInterface/Animation/Easi
 https://developer.xamarin.com/samples/xamarin-forms/Navigation/PassingData/
 https://developer.xamarin.com/samples/xamarin-forms/Templates/ControlTemplates/SimpleThemeWithTemplateBindingAndViewModel/
 
+-Games
+https://developer.xamarin.com/samples/xamarin-forms/UserInterface/Animation/Custom/
+https://developer.xamarin.com/samples/xamarin-forms/SkiaSharpForms/SpinPaint/
+https://github.com/xamarin/monodroid-samples/tree/master/Snake
+https://developer.xamarin.com/samples/monodroid/Snake/
+https://developer.xamarin.com/guides/cross-platform/game_development/cocossharp/first_game/
+https://developer.xamarin.com/guides/cross-platform/game_development/cocossharp/
+https://developer.xamarin.com/samples/xamarin-forms/Effects/TouchTrackingEffectDemos/
 
 https://developer.xamarin.com/guides/xamarin-forms/getting-started/
