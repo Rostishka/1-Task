@@ -1,0 +1,29 @@
+﻿body{
+	border: 10px white solid;
+	margin-left: 10%;
+		background-image: url("vvv.jpg");
+
+	margin-right: 10%;
+}
+
+.headerr{
+	text-align: right;
+	background-color: #A8F0F0;
+}
+
+.life{
+	font-size: 14pt;
+}
+
+.content{
+	float: left;
+	border: 4px #C2E9E9 solid;
+	background-color: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+}
+
+.years{
+	border-bottom: 2px blue dashed;
+}
+

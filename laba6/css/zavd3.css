@@ -1,0 +1,69 @@
+﻿body{
+	background-image: url("3zavd.gif");
+}
+
+.table_block{
+	
+}
+
+.textt{
+	border: 1px black solid;
+}
+
+.krasuva{
+	font-weight: bold;
+	color: green;
+	text-align: right;
+}
+
+.cherv{
+	text-align: right;
+}
+
+.lustya{
+	text-align: center;
+}
+
+.lustya2{
+	text-align: left;
+}
+
+.sadu{
+	text-align: center;
+}
+
+.tbl{
+	padding: 20px;
+	background-color: Chocolate;
+	border: 1px dashed black;
+	border-radius: 10px;
+}
+
+.mu{
+	font-weight: bold;
+	text-align: center;
+}
+
+#nas{
+	text-decoration: line-through;
+}
+
+#scha{
+	color: blue;
+}
+
+.textt{
+	background-color: Khaki;
+}
+
+.author{
+	color: red;
+}
+
+.chorn{
+	color: green;
+}
+
+.sadu{
+	font-weight: bold;
+}

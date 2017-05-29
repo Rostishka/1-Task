@@ -1,0 +1,45 @@
+﻿body{
+	border: 1px black solid;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0;
+}	
+
+.content-wrap{
+	display: flex;
+	flex-grow: 1;
+}
+
+nav{
+	background-color: yellow;
+	width: 200px;
+	text-align: center;
+}
+
+.navv, .asidee{
+	border: 1px black solid;
+	width: 100px;
+	background-color: white;
+}
+
+section{
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+header, footer {
+	background-color: blue;
+	height: 75px;
+	color: white;
+	text-align: center;
+}
+
+article{
+	background-color: white;
+	height: 300px;
+	flex-grow: 1;
+	text-align: center;
+	border: 1px black solid;
+}
